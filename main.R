@@ -5,6 +5,12 @@ library(jsonlite)
 WorkDir<-"C:/Users/Denis/Desktop/Google Drive/Data analysis/2015-01 Reading and sending RSS/RSS_reader_news"
 setwd(WorkDir)
 
+
+
+t_search<-searchtags()
+v_ctext<-readrsspage()
+
+
 # fileUrl<-"http://www.calcalist.co.il/Integration/StoryRss3998.xml"
 # doc<-xmlTreeParse(fileUrl, useInternal=TRUE)
 # rootNode<-xmlRoot(doc)
