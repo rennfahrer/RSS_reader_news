@@ -6,6 +6,6 @@ textrelevancy<-function(searchstr, searchedtext) {
   stopifnot(is.character(searchedtext))
   sc_len<-length(searchstr)
   for ( i in 1:sc_len) {
-    
+    print(i)
   }
 }
